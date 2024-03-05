@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(sahil.jpg);
+    background-size: cover;
+}
+a{
+    color: white;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+/*headr start*/
+header{
+  height: 100px;  
+  border-bottom: 2px solid rgba(255, 255, 255, 0.07);
+
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+}
+ header nav .logo a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+
+}
+nav ul a {
+  color: white;  
+  text-decoration: none;
+  transition: color .25s ease;
+}
+
+
+nav ul a:hover {
+    color: rgb(62, 62, 215);  
+    
+}
+
+
+div {
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+
+    
+}
+nav .menu-button{
+   color: #0ba2c0; 
+   text-decoration: none;
+   background-color: rgba(255, 255, 255, 0.08);
+   padding: 12px 24px;
+   border-radius: 56px;
+   transition: all .25s ease ;
+
+}
+
+nav .menu-button:hover{
+    background-color: rgb(9, 61, 150);
+    color: white;
+    
+
+ 
+ }
+ 
+ 
+
+/*headr end*/
+.content{
+    color: white;
+    height: calc(100vh-100px);
+    padding-top: 150px;
+}
+.content h1{
+    font-size: 60px;
+    text-align: center;
+}
+.content p{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 32px;
+}
+.content .links{
+   display: flex; 
+   justify-content: center;
+   margin-top: 48px;
+   
+}
+.content .links a{
+    background-color: white;
+    padding: 20px;
+    width: 280px;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 56px;
+    transition: all .25s ease-in;
+
+}
+.content .links a:hover{
+    background-color: #141243;
+}
+
+/*  responsive start*/
+@media(max-width:576px){
+    .container{
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    
+}
+
+
+ 
+
+ /*  responsive end */
